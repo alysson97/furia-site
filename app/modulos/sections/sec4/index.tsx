@@ -26,6 +26,7 @@ export default function App(){
               alt=""
               className="prod-carrossel px-5"
               style={{height:"40px"}}
+              key={produto.id}
               /* width={600}
               height={900} */
               />

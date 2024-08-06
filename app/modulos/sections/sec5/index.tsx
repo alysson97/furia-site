@@ -1,4 +1,4 @@
-import CarouselLoja from "@/app/components/carouselLoja/imageCarousel";
+import CarouselLoja from "@/app/components/carouselStore/imageCarousel";
 import car1 from "@/public/images/jaqueta.webp"
 import car1Nome from "@/public/images/jaqueta-nome.png"
 import car2 from "@/public/images/gorro.webp" 
@@ -23,11 +23,9 @@ export default function App(){
   return (
     <>
       <section className="sec5" id="sec5">
-        <div>
-          <CarouselLoja
-            images={carArr}
-          /> 
-        </div>
+        <CarouselLoja
+          images={carArr}
+        /> 
       </section>
     </>
   );
